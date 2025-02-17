@@ -4,6 +4,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
   dotnetSdkVersion: '6.x'
+  system.debug: true
 
 steps:
 - task: UseDotNet@2
